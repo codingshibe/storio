@@ -5,7 +5,7 @@ A mobile-first application that connects people who have extra storage space wit
 
 ## Live Demo
 
-Experience Storio live at [https://www.storio-dev.sebtedesco.com](https://www.storio-dev.sebtedesco.com)
+Experience Storio live at [https://storio-dev.acanlas.dev](https://storio-dev.acanlas.dev)
 
 ## Technologies Used
 - React
@@ -46,7 +46,7 @@ Experience Storio live at [https://www.storio-dev.sebtedesco.com](https://www.st
 1. Clone the repository.
 
 ```shell
-git clone https://github.com/sebtedesco/storio.git
+git clone https://github.com/a-canlas/storio.git
 ```
 
 2. Install all dependencies with NPM.
