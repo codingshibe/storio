@@ -16,10 +16,12 @@ export default class App extends React.Component {
     this.state = {
       message: null,
       isLoading: true,
-      currentUser: 'guest'
+      currentUser: 'guest',
+      infoModal: true
     };
     this.tryLogIn = this.tryLogIn.bind(this);
     this.signOut = this.signOut.bind(this);
+    this.closeModal = this.closeModal.bind(this);
   }
 
   componentDidMount() {
@@ -47,6 +49,10 @@ export default class App extends React.Component {
 
   signOut() {
     this.setState({ currentUser: 'guest' });
+  }
+
+  closeModal() {
+    this.setState({ infoModal: false });
   }
 
   render() {
